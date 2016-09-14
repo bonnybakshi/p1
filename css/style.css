@@ -54,3 +54,19 @@ header #course{
     background-color: #0D294A;
     
 }
+a {
+    text-decoration: none;
+    color:  #2978B8;
+    outline: none;
+    transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+}
+
+a:hover {
+    color: #0D0D28;
+}
+
+.center {
+    text-align: center;
+}
