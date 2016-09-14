@@ -1,0 +1,56 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Abel);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+html {
+	width: 100%;
+}
+body {
+	position: relative;
+	min-width: 960px;
+    background-color: #F4F2F0;
+    color: #666;
+    font: 300 14px/20px 'Open Sans', sans-serif;
+}
+
+p {
+	margin-bottom: 20px;
+    line-height: 150%;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+/******** header *********/
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    color: #0366A9;
+    padding-top: 28px; 
+}
+
+header {
+    display: block;
+}
+
+
+header #name {
+    text-align: center;
+    color: #2978B8;
+}
+
+header #course{
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    font-size: 2em;  
+}
+
+#line {
+    overflow: hidden;
+    height: 1em;
+    margin-bottom: 1.25em;
+    background-color: #0D294A;
+    
+}
